@@ -1,0 +1,81 @@
+/*SELETTORE {
+proprietà: valore;
+proprietà: valore;
+}*/
+.container {
+  width: 1,200px;
+  margin:auto;
+}
+body {
+  background-image:url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text {
+  text-align: center;
+  color: #00c200;
+  font-family: cursive;
+}
+.rettangolo {
+  margin: 50px 100px;
+  background-color: rgba(15,15,15, 0.7);
+  background-position: center;
+  display: block;
+  border-radius: 15px;
+}
+header {
+  text-align: center;
+}
+.box {
+  text-align: center;
+  margin-top: 70px;
+  width: 170px;
+  height: 100px;
+}
+.clicca {
+  text-align: center;
+  background-color: #00c200;
+  height: 40px;
+  width: 80%;
+  margin-left:  100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: verdana;
+}
+.row:first-child {
+  color: white;
+  margin-left:  100px;
+  margin-right: 125px;
+  font-size: 12pt;
+  font-family: verdana;
+}
+.gold {
+    background-color: rgba(170,140,5) ;
+    display: block;
+    border-radius: 5px;
+    height: 40px;
+    width: 35%;
+}
+.green {
+    background-color: #00c200;
+    display: block;
+    border-radius: 5px;
+    height: 40px;
+    width: 60%;
+}
+.red {
+    background-color: rgba(190,0,0) ;
+    display: block;
+    border-radius: 5px;
+    height: 40px;
+    width: 15%;
+}
+footer {
+  margin-top: 140px;
+}
+.-via :before{
+  : attr(<\21C0);
+}
